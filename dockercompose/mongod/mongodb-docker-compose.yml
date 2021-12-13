@@ -10,8 +10,7 @@ services:
     environment:
       - MONGO_INITDB_ROOT_USERNAME=rootuser
       - MONGO_INITDB_ROOT_PASSWORD=rootpass
-    volumes:
-      - mongodb-data
+
 
   mongo-express:
     image: mongo-express

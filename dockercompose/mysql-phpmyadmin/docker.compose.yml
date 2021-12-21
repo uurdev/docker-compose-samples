@@ -23,4 +23,4 @@ services:
       PMA_ARBITRARY: 1
     restart: always
     ports:
-      - 8183:8183
+      - 8183:80
